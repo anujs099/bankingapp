@@ -1,0 +1,14 @@
+package controller;
+
+import javax.servlet.Registration;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class utility {
+
+	public Session util() {
+		SessionFactory session=new Configuration().configure("hibernate.cfg.xml").addAnnotatedClass(Registration.class).buildSessionFactory();
+	}
+}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="LoginFile.css">
+
+</head>
+<body>
+<div class="main">
+
+	<a href="login.html" style="text-decoration: none" class="submit" class="un">Login</a><br>
+	<a href="Register.html" style="text-decoration: none" class="submit" class="un">Register</a></div>
+</body>
+</html>

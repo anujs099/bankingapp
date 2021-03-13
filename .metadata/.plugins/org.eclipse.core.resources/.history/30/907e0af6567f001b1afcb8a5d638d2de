@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="LoginFile.css">
+</head>
+<body>
+<div class="main" style="width: 400px;
+        height: 500px">
+<p class="sign" align="center">Change password</p>
+
+<form action="changepassword" method="post">
+
+<input type="number" placeholder="accountid" name="accountid" class="un"><br>
+<input type="text" placeholder="old password" name="oldpassword" class="un"><br>
+<input type="text" placeholder="new password" name="newpassword" class="un"><br>
+<input type="text" placeholder="confirm password" name="confirmpassword" class="un"><br>
+<input type="submit" value="changepassword" class="submit" style="position: relative;left:-25px;">
+</form>
+
+
+</div>
+</body>
+</html>

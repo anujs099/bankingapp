@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<Form action="registerservlet" method="post"><br>
+<input type="text" placeholder="name"><br>
+<input type="text" placeholder="password"><br>
+<input type="text" placeholder="confirm password"><br>
+<input type="submit">
+</Form>
+</body>
+</html>

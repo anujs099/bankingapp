@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="container">
+<Form action="registerservlet" method="post"><br>
+<input type="text" placeholder="name"><br>
+<input type="password" placeholder="password"><br>
+<input type="password" placeholder="confirm password"><br>
+<div class="control">
+  <label class="radio">
+    <input type="radio" name="answer">
+   	Male
+  </label>
+  <label class="radio">
+    <input type="radio" name="answer">
+    Female
+  </label>
+</div>
+<input type="email" placeholder="Email"><br>
+<input type="date" min="1990-01-01" max="2030-02-08" value="1990-01-02"><br>
+<input type="text" placeholder="address">
+<input type="text" placeholder="branchname">
+<input type="submit" value="Register"><br>
+</Form>
+</div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="changepassword" method="post">
+<input type="number" placeholder="accountid" name="accountid">
+<input type="text" placeholder="old password" name="oldpassword">
+<input type="text" placeholder="new password" name="newpassword">
+<input type="text" placeholder="confirm password" name="confirmpassword">
+<input type="submit" value="changepassword">
+</form>
+</body>
+</html>

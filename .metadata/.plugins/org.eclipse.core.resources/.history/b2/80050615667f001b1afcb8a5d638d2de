@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="TransferServlet" method="post" >
+<div>
+     <label for="accctid">Beneficiary Account :</label>
+      <input type="number" id="accctid"  name="acccount"  >
+  </div>
+<div >
+       <label for="firstname">Beneficiary name :</label>
+      <input type="text" id="firstname" name="firstname" required="required"  >
+  </div>
+  <div>
+     <label for="ammount">please enter ammount:</label>
+      <input type="number"  id="ammount"  name="ammount"  >
+  </div>
+ <button type="submit" >Submit</button>
+</form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="LoginFile.css">
+<style>
+a{
+position:relative;
+top:150px;
+padding:100px;
+}
+
+</style>
+</head>
+<body>
+<div class="main">
+<p class="sign" align="center">TESTING BANK</p>
+<div class="container">
+<a href="login.html"  class="submit">Sign  in </a><br><br><br>
+	<a href="Register.html" class="submit" >Register</a></div>
+	</div>
+	
+</body>
+</html>

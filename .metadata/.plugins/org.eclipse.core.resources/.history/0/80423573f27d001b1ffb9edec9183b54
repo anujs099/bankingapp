@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<div class="main">
+
+	<a href="login.html" style="text-decoration: none">Login</a>
+	<a href="Register.html" style="text-decoration: none">Register</a></div>
+</body>
+</html>

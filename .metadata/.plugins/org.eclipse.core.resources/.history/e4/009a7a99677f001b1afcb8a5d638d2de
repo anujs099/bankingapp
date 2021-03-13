@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="LoginFile.css">
+</head>
+<body>
+<div class="main" style="width: 400px;
+        height: 700px;">
+        <p class="sign" align="center" style="padding-top:30px">Register account</p>
+<Form action="registerservlet" method="post" style="margin:-10px" ><br>
+<input type="text" placeholder="name" name="firstname" class="un"><br>
+<input type="password" placeholder="password" name="password" class="un"><br>
+<input type="password" placeholder="confirm password" class="un"><br>
+<div class="control" class="un">
+  <label class="radio">
+    <input type="radio" name="answer" value="male"></input>
+   	Male
+  </label>
+  <label class="radio">
+    <input type="radio" name="answer" value="female"></input>
+    Female
+  </label>
+</div>
+<input type="email" placeholder="Email" name="email" class="un"><br>
+<input type="date" min="1990-01-01" max="2030-02-08" value="1990-01-02" name="date" class="un"><br>
+<input type="text" placeholder="address" name="Address" class="un"><br>
+<input type="text" placeholder="branchname" name="branch" class="un"><br>
+<input type="submit" value="Register" class="submit"><br>
+</Form>
+</div>
+</body>
+</html>

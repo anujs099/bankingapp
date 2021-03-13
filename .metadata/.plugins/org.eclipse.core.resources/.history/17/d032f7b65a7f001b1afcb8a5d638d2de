@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" href="error.css">
+</head>
+<body>
+<div class="failure">FAILED TO REGISTER !!</div>
+
+<div class="message">
+Please fill the information correctly or login again</div>
+ 
+</body>
+</html>
